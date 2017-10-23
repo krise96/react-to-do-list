@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: silver;
+  background-image: url("https://static.pexels.com/photos/458883/pexels-photo-458883.jpeg");
+  background-size: 100%;
+  background-repeat:no-repeat;
+}

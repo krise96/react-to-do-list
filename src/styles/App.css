@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.coloumBorder{
+  padding: 0px;
+  border: solid #008B8B 5px;
+}
+
+.toDoElement {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #F4A460;
+  border-bottom: solid #008B8B 2px;
+  height: 50px;
+}
+.toDoElement:hover{
+  background-color: #fcb579;
+}
+.toDoElement p {
+  padding-left: 15px;
+  float: left;
+  margin-bottom: 0;
+  font: bold 20px Raleway, sans-serif;
+}
+.btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 20px;
+  background: #d93434;
+  margin-top: 10px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #fa3f3f;
+  text-decoration: none;
+}
+
+.btnDelete {
+  float: right;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 10px;
+  background: #d93434;
+  margin-top: 10px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btnDelete:hover {
+  background: #fa3f3f;
+  text-decoration: none;
+}
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
